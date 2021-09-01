@@ -1,0 +1,265 @@
+{
+    "locations":[
+        {
+            "id":1,
+            "city": "Nashville",
+            "address":"700 Flossie Dam",
+            "phoneNumber": "772-771-9586",
+            "squareFootage": 3000,
+            "handicapAccessable": true
+        },
+        {
+            "id":2,
+            "city": "Gallatin",
+            "address":"799 Gloss Dr",
+            "phoneNumber": "615-223-4567",
+            "squareFootage": 2975,
+            "handicapAccessable": true
+        },
+        {
+            "id":3,
+            "city": "Clarksville",
+            "address":"1901 Goodyear Lane",
+            "phoneNumber": "931-552+7824",
+            "squareFootage": 9000,
+            "handicapAccessable": true
+        }
+    ],
+    "products":[
+        {
+            "id":1,
+            "name": "Double Bubble",
+            "productTypeId": 1,
+            "price": 1.59
+        },
+        {
+            "id":2,
+            "name": "Snickers",
+            "productTypeId": 2,
+            "price": 1.53
+        },
+        {
+            "id":3,
+            "name": "ReceesCup",
+            "productTypeId": 2,
+            "price": 1.60
+        },
+        {
+            "id":4,
+            "name": "Big Red Gum",
+            "productTypeId": 1,
+            "price": 3.20
+        },
+        {
+            "id":5,
+            "name": "Jolly Ranchers",
+            "productTypeId": 3,
+            "price": 1.50
+        },
+        {
+            "id":6,
+            "name": "Blow Pops",
+            "productTypeId": 4,
+            "price": 3.40
+        },
+        {
+            "id":7,
+            "name": "Dum-Dums",
+            "productTypeId": 4,
+            "price": 2.50
+        }
+    ],
+    "productsByLocations":[
+        {
+            "id":1,
+            "productId":1,
+            "locationId": 2
+        },
+        {
+            "id":2,
+            "productId":1,
+            "locationId":2
+        },
+        {
+            "id":3,
+            "productId": 2,
+            "locationId": 1
+        },
+        {
+            "id": 4,
+            "productId": 2,
+            "locationId":3
+        },
+        {
+            "id":5,
+            "productId": 3,
+            "locationId":1
+        },
+        {
+            "id":6,
+            "productId": 3,
+            "locationId": 2
+        },
+        {
+            "id": 7,
+            "productId": 3,
+            "locationId": 3
+        },
+        {
+            "id":8,
+            "productId": 4,
+            "locationId": 3
+        },
+        {
+            "id":9,
+            "productId": 5,
+            "locationId": 1
+        },
+        {
+            "id":10,
+            "productId": 5,
+            "locationId": 2
+        },
+        {
+            "id": 11,
+            "productId": 5,
+            "locationId":3
+        },
+        {
+            "id":12,
+            "productId": 6,
+            "locationId":1
+        },
+        {
+            "id":13,
+            "productId": 6,
+            "locationId":2
+        },
+        {
+            "id":14,
+            "productId": 7,
+            "locationId":3
+        },
+        {
+            "id":15,
+            "productId": 8,
+            "locationId":1
+        },
+        {
+            "id":16,
+            "productId": 8,
+            "locationId":2
+        },
+        {
+            "id":17,
+            "productId": 8,
+            "locationId": 3
+        },
+        {
+            "id":18,
+            "productId": 9,
+            "locationId":1
+        },
+        {
+            "id":19,
+            "productId": 9,
+            "locationId":2
+        }
+    ],
+    "productTypes":[
+        {
+            "id": 1,
+            "name": "Gum"
+        },
+        {
+            "id": 2,
+            "name": "CandyBar"
+        },
+        {
+            "id": 3,
+            "name": "HardCandy"
+        },
+        {
+            "id": 4,
+            "name": "Suckers"
+        }
+    ],
+    "employees":[
+        {
+            "id":1,
+            "name": "Benjamin Franklin",
+            "locationId": 1,
+            "manager": false,
+            "fullTime": true,
+            "hourlyRate": 20
+
+
+        },
+        {
+            "id":2,
+            "name": "Kitty",
+            "locationId": 1,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 20
+        },
+        {
+            "id":3,
+            "name": "Wirt",
+            "locationId": 1,
+            "manager": true,
+            "fullTime": true,
+            "hourlyRate": 20
+        },
+        {
+            "id":4,
+            "name": "Wirt Jr.",
+            "locationId": 2,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 20
+        },
+        {
+            "id":5,
+            "name": "Gregg",
+            "locationId": 2,
+            "manager": true,
+            "fullTime": true,
+            "hourlyRate": 20
+        },
+        {
+            "id":6,
+            "name": "Enoch",
+            "locationId": 2,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 20
+        },
+        {
+            "id":7,
+            "name": "Adelaide",
+            "locationId": 3,
+            "manager": true,
+            "fullTime": true,
+            "hourlyRate": 20
+        },
+        {
+            "id":8,
+            "name": "Beatrice",
+            "locationId": 3,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 20
+        },
+        {
+            "id":9,
+            "name": "Jason Funderberker",
+            "locationId": 3,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 20
+        }
+    ],
+    "customers":[],
+    "purchases":[]
+}
